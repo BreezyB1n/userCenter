@@ -4,10 +4,12 @@ import java.util.Date;
 import com.bin.usercenter.mapper.UserMapper;
 import com.bin.usercenter.model.domain.User;
 import com.bin.usercenter.service.UserService;
-import jakarta.annotation.Resource;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+
+import javax.annotation.Resource;
 
 @SpringBootTest(classes = UserCenterApplication.class)
 class UserCenterApplicationTests {

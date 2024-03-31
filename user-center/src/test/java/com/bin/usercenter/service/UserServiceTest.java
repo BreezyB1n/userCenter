@@ -2,10 +2,12 @@ package com.bin.usercenter.service;
 
 import com.bin.usercenter.mapper.UserMapper;
 import com.bin.usercenter.model.domain.User;
-import jakarta.annotation.Resource;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+
+import javax.annotation.Resource;
 
 import static org.junit.jupiter.api.Assertions.*;
 @SpringBootTest
@@ -19,10 +21,10 @@ class UserServiceTest {
     void test() {
         User user = new User();
         user.setUser("bin");
-        user.setUserAccount("224523");
+        user.setUserAccount("2253963");
         user.setAvatarUrl("asd");
         user.setGender(0);
-        user.setUserPassword("xxx");
+        user.setUserPassword("zhangbin0327");
         user.setEmail("zzz");
         user.setPhone("12345677890");
 

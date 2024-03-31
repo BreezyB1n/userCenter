@@ -2,7 +2,6 @@ package com.bin.usercenter.model.domain.request;
 
 import lombok.Data;
 
-
 import java.io.Serializable;
 
 /**
@@ -11,9 +10,8 @@ import java.io.Serializable;
  * @author B1n_
  */
 @Data
-public class UserRegisterRequest implements Serializable {
+public class UserLoginRequest implements Serializable {
     private static final long serialVersionUID = -4253063728374818031L;
     private String userAccount;
     private String userPassword;
-    private String checkPassword;
 }
